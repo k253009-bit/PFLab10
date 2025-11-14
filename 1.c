@@ -10,7 +10,7 @@ int main() {
 
     for(i = 0; i < 4; i++) {
         printf("\n%s\n", word[i]);
-        printf("Length of word is: %lu\n", strlen(word[i]));
+        printf("Length of word is: %d\n", strlen(word[i]));
 
         printf("Vertical:\n");
         for(j = 0; j < strlen(word[i]); j++) {
@@ -20,3 +20,4 @@ int main() {
 
     return 0;
 }
+
